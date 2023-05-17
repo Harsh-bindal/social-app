@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/social-app/static/css/main.e267cb0a.css",
-    "main.js": "/social-app/static/js/main.74b9ad4d.js",
+    "main.css": "/social-app/static/css/main.2ea2aefc.css",
+    "main.js": "/social-app/static/js/main.ac97ed07.js",
+    "static/media/photo1.jpg": "/social-app/static/media/photo1.df16ac934c534f26bc5e.jpg",
+    "static/media/1.jpg": "/social-app/static/media/1.952da39a9cd0626359e2.jpg",
+    "static/media/heart.png": "/social-app/static/media/heart.ad7fd83ae2d821a2d689.png",
+    "static/media/navin.jpg": "/social-app/static/media/navin.d48e094c3b719ce950ea.jpg",
+    "static/media/ad.webp": "/social-app/static/media/ad.55ff843e7755560a8e1e.webp",
+    "static/media/like.png": "/social-app/static/media/like.a42c39d3b2ad8a37785d.png",
+    "static/media/gift.png": "/social-app/static/media/gift.2957854fd94d6b2b00e7.png",
+    "static/media/harsh.jpg": "/social-app/static/media/harsh.b10bd008232beef6c5fa.jpg",
     "index.html": "/social-app/index.html",
-    "main.e267cb0a.css.map": "/social-app/static/css/main.e267cb0a.css.map",
-    "main.74b9ad4d.js.map": "/social-app/static/js/main.74b9ad4d.js.map"
+    "main.2ea2aefc.css.map": "/social-app/static/css/main.2ea2aefc.css.map",
+    "main.ac97ed07.js.map": "/social-app/static/js/main.ac97ed07.js.map"
   },
   "entrypoints": [
-    "static/css/main.e267cb0a.css",
-    "static/js/main.74b9ad4d.js"
+    "static/css/main.2ea2aefc.css",
+    "static/js/main.ac97ed07.js"
   ]
 }
