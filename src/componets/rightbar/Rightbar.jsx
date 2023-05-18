@@ -2,7 +2,8 @@ import React from 'react'
 import "./rightbar.css"
 import gift from "../../assets/gift.png"
 import ad from "../../assets/ad.webp"
-import Navin from "../../assets/navin.jpg"
+import {Users} from "../../dummyData"
+import Online from "../online/Online"
 
 export default function Rightbar() {
   return (
@@ -17,13 +18,7 @@ export default function Rightbar() {
         <h4 className="onlineSection">Online Friends</h4>
         <ul className="onlineFriendList">
 
-          <li className="onlineFriend">
-            <div className="profileImgContainer">
-              <img src={Navin} alt="" className="profileImg" />
-              <span className="rightbarOnline"></span>
-            </div>
-            <span className="userName">Navin Bindal</span>
-          </li>
+         {Users.map((u)=><Online key={u.id} user={u} />)}
 
         </ul>
 

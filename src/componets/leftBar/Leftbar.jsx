@@ -1,7 +1,8 @@
 import React from 'react'
 import "./leftbar.css"
 import {Assistant, Chat, Reviews, RssFeed, Stream, VideoChat, Warning} from '@mui/icons-material';
-import sachin from "../../assets/photo1.jpg"
+import CloseFriends from "../closeFriends/CloseFriends"
+import {Users} from "../../dummyData"
 
 export default function Leftbar() {
   return (
@@ -37,64 +38,15 @@ export default function Leftbar() {
           <VideoChat className="sidebarIcon"/>
           <span className="sideBarListItemtext">Video chat</span>
           </li>
+         
         </ul>
 
         <button className="sedeBarbutton" >Show more</button>
         <hr className="sideBarhr"/>
-        <ul className="sideBarFriendList">
-          <li className="sideBarFriend">
-            <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
-          <li className="sideBarFriend">
-          <img className="sideBarImage" src={sachin} alt="" />
-            <span className="sideBarFriendName">Sachin chauhan</span>
-          </li>
 
+        <ul className="sideBarFriendList">
+    
+            {Users.map((u)=> <CloseFriends key={u.id} user={u} />)}  
 
         </ul>
 
