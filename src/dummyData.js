@@ -3,7 +3,7 @@ export const Posts=
     {
         id:1,
         desc:"Hey I am at srinagar",
-        photo:"../../assets/photo.jpg",
+        photo:"assets/photo.jpg",
         date: "2 mins ago",
         userId:1,
         like:32,

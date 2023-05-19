@@ -15,9 +15,7 @@ export default function Post({post}) {
     {
        setLike(isLiked?like-1 : like+1)
        setIsLiked(!isLiked)
-    }
-    
-    
+    }  
 
   return (
     <div className="post">
@@ -34,7 +32,7 @@ export default function Post({post}) {
             </div>
             <div className="postCenter">
                 <span className="postIdea">{post?.desc}</span>
-                <img src={require("../../assets/1.jpg")} alt="" className="postCenterImg" />
+                <img src={require("../../assets/photo2.jpg")} alt="" className="postCenterImg" />
             </div>
             <div className="postBottom">
                 <div className="postBottomLeft">

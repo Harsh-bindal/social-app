@@ -6,10 +6,13 @@ import {Users} from "../../dummyData"
 import Online from "../online/Online"
 
 export default function Rightbar() {
+
+ 
   return (
     <div className="rightbar">
       <div className="rightbarWrapper">
-        <div className="birthdayContainer">
+       
+      <div className="birthdayContainer">
           <img src={gift} alt="" className="birthdayGift" />
           <span className="birthdayText"><b>Navin</b> and <b>3 others</b> Have birthday today </span>
         </div>
@@ -21,8 +24,7 @@ export default function Rightbar() {
          {Users.map((u)=><Online key={u.id} user={u} />)}
 
         </ul>
-
       </div>
     </div>
-  )
+  );
 }
