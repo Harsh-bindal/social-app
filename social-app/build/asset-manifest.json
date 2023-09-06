@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/social-app/static/css/main.65ece083.css",
+    "main.js": "/social-app/static/js/main.bc9a9786.js",
+    "static/media/heart.png": "/social-app/static/media/heart.ad7fd83ae2d821a2d689.png",
+    "static/media/noCover.jpg": "/social-app/static/media/noCover.0cf107ea19ebafdd9c9a.jpg",
+    "static/media/navin.jpg": "/social-app/static/media/navin.d48e094c3b719ce950ea.jpg",
+    "static/media/ad.webp": "/social-app/static/media/ad.55ff843e7755560a8e1e.webp",
+    "static/media/like.png": "/social-app/static/media/like.a42c39d3b2ad8a37785d.png",
+    "static/media/gift.png": "/social-app/static/media/gift.2957854fd94d6b2b00e7.png",
+    "index.html": "/social-app/index.html",
+    "main.65ece083.css.map": "/social-app/static/css/main.65ece083.css.map",
+    "main.bc9a9786.js.map": "/social-app/static/js/main.bc9a9786.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65ece083.css",
+    "static/js/main.bc9a9786.js"
+  ]
+}
